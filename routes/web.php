@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PreiousSeaLevelController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('site.index');
+Route::get('/', [PreiousSeaLevelController::class,'index']);
+Route::get('/test', function () {
+    return view('site.test');
 });
+
+
 
 Route::middleware([
     'auth:sanctum',

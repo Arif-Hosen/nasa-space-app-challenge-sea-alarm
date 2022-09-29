@@ -100,10 +100,21 @@
 
         </div> --}}
 
-        {{-- <div class="w-50">
-            <h1>Laravel ChartJS Chart Example - ItSolutionStuff.com</h1>
+        <div class="p-4 mx-auto">
+            <div class="text-center">
+            <h1>Global Sea Level Rise</h1>
+            <p>Data source: Satellite sea level observations.</p>
+            <p>Credit: NASA's Goddard Space Flight Center</p>
+            <p>RISE SINCE 1994 101.4millimeters</p>
+        </div>
+            <div class="d-flex align-items-center">
+                <span>Sea Height Variation (mm)</span>
         <canvas id="myChart" height="100px"></canvas>
-        </div> --}}
+            </div>
+            
+        </div>
+        
+       
     </section><!-- End About Us Section -->
 
     <!-- ======= Why Us Section ======= -->
@@ -674,21 +685,30 @@
 @endsection
 @section('script')
   
-{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
 <script type="text/javascript">
   
-      var labels =  [2020,2022, 2023,2024, 2025];
-      var users = [0, 6,3,3,7,10 ];
-  
+      var labels =  {{ Js::from($year)}};
+      var sea_level = {{ Js::from($sea_level)}};
+
+      let arr1=[];
+      let arr2=[];
+
+      console.log(labels)
+      for (const iterator of labels) {
+        arr1.push(iterator.year)
+        
+        }
+        console.log(arr1)
       const data = {
-        labels: labels,
+        labels: arr1,
         datasets: [{
-          label: 'My First dataset',
+          label: 'Sea Level',
           backgroundColor: 'rgb(255, 99, 132)',
           borderColor: 'rgb(255, 99, 132)',
-          data: users,
+          data: sea_level,
         }]
       };
   
@@ -702,6 +722,10 @@
         document.getElementById('myChart'),
         config
       );
+
+
+
+      
   
-</script> --}}
+</script>
 @endsection
