@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('site.index');
 });
 
+Route::get('/routine', function (){
+    return view('site.routine');
+})->name('routine');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

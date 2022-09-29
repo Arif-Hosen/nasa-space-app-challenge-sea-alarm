@@ -51,7 +51,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                  <li><a class="nav-link scrollto active" href="">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">Routine</a></li>
+                <li><a class="nav-link scrollto" href="{{route('routine')}}">Routine</a></li>
                 <li><a class="nav-link scrollto" href="#services">My Check List</a></li>
 {{--                <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>--}}
 {{--                <li><a class="nav-link scrollto" href="#team">Team</a></li>--}}
@@ -93,32 +93,32 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
 
-    <div class="footer-newsletter">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <h4>Join Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--    <div class="footer-newsletter">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row justify-content-center">--}}
+{{--                <div class="col-lg-6">--}}
+{{--                    <h4>Join Our Newsletter</h4>--}}
+{{--                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>--}}
+{{--                    <form action="" method="post">--}}
+{{--                        <input type="email" name="email"><input type="submit" value="Subscribe">--}}
+{{--                    </form>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     <div class="footer-top">
         <div class="container">
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3>Arsha</h3>
+                    <h3>Sea Alarm</h3>
                     <p>
                         A108 Adam Street <br>
-                        New York, NY 535022<br>
-                        United States <br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                        Dhaka, NY 535022<br>
+                        Bangladesh <br><br>
+                        <strong>Phone:</strong> +8801860842420<br>
+                        <strong>Email:</strong> info@seawave.com<br>
                     </p>
                 </div>
 
@@ -126,10 +126,10 @@
                     <h4>Useful Links</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Routine</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">My Checklist</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Login</a></li>
                     </ul>
                 </div>
 
@@ -162,14 +162,14 @@
 
     <div class="container footer-bottom clearfix">
         <div class="copyright">
-            &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Sea Waves</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://bootstrapmade.com/">Sea Waves</a>
         </div>
 
 
