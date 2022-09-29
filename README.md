@@ -1,4 +1,4 @@
-# Dengue Prevention and Cleaning System
+# Project : Sea Alarm
 
 <h3 align="center">
   <br>
