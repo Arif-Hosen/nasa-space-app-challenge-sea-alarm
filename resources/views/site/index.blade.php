@@ -31,8 +31,6 @@
 
 </section><!-- End Hero -->
 
-
-<<<<<<< HEAD
     <!-- ======= Cliens Section ======= -->
     <section id="cliens" class="cliens section-bg">
         <div class="container">
@@ -116,6 +114,63 @@
         
        
     </section><!-- End About Us Section -->
+
+{{-- tree measurment --}}
+    <section>
+        <div class="text-center">
+            <h1>Tree Measurement (%) of Your Area</h1>
+            <p>Data source: Eath Explorar.</p>
+            <p>Credit: Landsat program. NASA / USGS Joint Program</p>
+        </div>
+
+      <div class="w-50 mx-auto mt-4">
+       
+           
+                <select  id="area" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option   selected>Open this select menu</option>
+                    <option  value='cumilla'>Cumilla</option>
+                    <option  value='noyakhali'>Noyakhali</option>
+                    <option value='3'>Lakshmipur</option>
+                  </select>
+                  <button onclick="area()" class="btn btn-primary" type="button">Select</button>
+           
+        
+              <form>
+                Select your favorite fruit:
+                <select id="mySelect">
+                  <option value="apple">Apple</option>
+                  <option value="orange">Orange</option>
+                  <option value="pineapple">Pineapple</option>
+                  <option value="banana">Banana</option>
+                </select>
+              </form>
+      </div>
+        <div id="cumilla" class="p-5">
+           <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <img width="80%" src="{{asset('assets/frontend/img/nasa/forestfinal1.png')}}" alt="">
+                </div>
+            
+                <div>
+                    <p>The tree percentage of your area has <span style="color:crimson">decreased  5%</span> in the last year.</p>
+                    <p class="text-primary">Please consider planting a tree!</p>
+                </div>
+            </div>
+        </div>
+        <div id="noyakhali" class="p-5 d-none">
+           <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <img width="80%" src="{{asset('assets/frontend/img/nasa/forestfinal2.png')}}" alt="">
+                </div>
+            
+                <div>
+                    <p>The tree percentage of your area has <span style="color:crimson">decreased  10%</span> in the last year.</p>
+                    <p class="text-primary">Please consider planting a tree!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+{{--end tree measurment --}}
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us section-bg">
@@ -732,6 +787,32 @@
         document.getElementById('myChart'),
         config
       );
+
+      function area(){
+       let areaSelect=  document.getElementById('area').value;
+       console.log(areaSelect)
+       let cumilla = document.getElementById('cumilla');
+       let noyakhali = document.getElementById('noyakhali');
+
+       if(areaSelect='cumilla'){
+        console.log('from cumilla',areaSelect)
+
+        cumilla.style.display='block';
+        noyakhali.style.display='none';
+       }
+       else {
+        console.log('from noyakhli',areaSelect)
+        cumilla.style.display='none';
+        noyakhali.style.display='block';
+       }
+      
+       function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  console.log(x);
+  document.getElementById("demo").innerHTML = x;
+}
+
+      }
 
 </script>
 @endsection
