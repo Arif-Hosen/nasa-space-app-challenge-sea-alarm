@@ -100,16 +100,16 @@
 
         </div> --}}
 
-        <div class="p-4 mx-auto">
+        <div class="mx-auto p-5">
             <div class="text-center">
-            <h1>Global Sea Level Rise</h1>
-            <p>Data source: Satellite sea level observations.</p>
-            <p>Credit: NASA's Goddard Space Flight Center</p>
-            <p>RISE SINCE 1994 101.4millimeters</p>
-        </div>
-            <div class="d-flex align-items-center">
-                <span>Sea Height Variation (mm)</span>
-        <canvas id="myChart" height="100px"></canvas>
+                <h1>Global Sea Level Rise</h1>
+                <p>Data source: Satellite sea level observations.</p>
+                <p>Credit: NASA's Goddard Space Flight Center</p>
+                <p>RISE SINCE 1994 101.4millimeters</p>
+            </div>
+            <div style="width:85%" class="d-flex align-items-center justify-content-center mx-auto">
+                <span >Sea Height Variation (mm)</span>
+                <canvas id="myChart" height="100px"></canvas>
             </div>
             
         </div>
@@ -680,49 +680,45 @@
     </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
-=======
->>>>>>> 21c06b3a43d26746d879602646adf52094f7066c
+
 
 
 @endsection
 @section('script')
-<<<<<<< HEAD
   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
-=======
 
-{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
->>>>>>> 21c06b3a43d26746d879602646adf52094f7066c
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script type="text/javascript">
-<<<<<<< HEAD
   
       var labels =  {{ Js::from($year)}};
       var sea_level = {{ Js::from($sea_level)}};
 
-      let arr1=[];
-      let arr2=[];
+      let levelsArray=[];
+      let seaLevelArray=[];
 
-      console.log(labels)
+      
       for (const iterator of labels) {
-        arr1.push(iterator.year)
+        levelsArray.unshift(iterator.year)
         
         }
-        console.log(arr1)
-=======
+        
+      for (const iterator of sea_level) {
+        seaLevelArray.unshift(iterator.sea_level)
+        }
+        console.log(seaLevelArray)
 
       var labels =  [2020,2022, 2023,2024, 2025];
       var users = [0, 6,3,3,7,10 ];
 
->>>>>>> 21c06b3a43d26746d879602646adf52094f7066c
       const data = {
-        labels: arr1,
+        labels: levelsArray,
         datasets: [{
           label: 'Sea Level',
-          backgroundColor: 'rgb(255, 99, 132)',
-          borderColor: 'rgb(255, 99, 132)',
-          data: sea_level,
+          backgroundColor: 'crimson',
+          borderColor: 'black',
+          data: seaLevelArray,
         }]
       };
 
@@ -737,13 +733,5 @@
         config
       );
 
-<<<<<<< HEAD
-
-
-      
-  
 </script>
-=======
-</script> --}}
->>>>>>> 21c06b3a43d26746d879602646adf52094f7066c
 @endsection

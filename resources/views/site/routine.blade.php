@@ -24,19 +24,27 @@
 
 
         <div class="row">
+            <h2 class="text-center mb-4">Follow The Routine and Save Our Planet</h2>
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
-                        <section class="panel">
+                        <section style="padding-top:20px;" class="panel ">
                             <header class="panel-heading">
-                                <h2 style="text-align: center" class="panel-title">List of </h2>
+                                <h3 style="text-align: center " class="panel-title mb-5 text-primary">Daily Routine For Reducing Carbon Dioxide Emission</h3>
                             </header>
                             <div class="panel-body">
 
 
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-xl-12 text-right mb-3">
+                                <div class="row d-flex">
+                                    <div class="col-lg-6 col-md-6 col-xl-6 text-right mb-3">
+                                        <label for="exampleInputEmail1">Pick a Date</label>
                                         <input type="datetime-local">
+                                    </div>
+                                    <div style="font-weight: bold; position: absolute;
+                                    right: -252px;top:80px" class=" col-xl-6">
+                                        
+                                        <p class="">Average Carbon Footprint: <span style="color:crimson; font-weight: bold">1.6 KG</span></p>
+                                        <p style=" margin-left: 30px;">Your Carbon Footprint: <span style="color:green; font-weight: bold">1.2 KG</span></p>
                                     </div>
                                 </div>
                                 {{--<table class="table table-bordered table-striped mb-none" id="data-table">--}}
@@ -45,9 +53,9 @@
 
                                     <thead>
                                     <tr>
-                                        <th width="10">No:</th>
+                                        <th width="10">No</th>
                                         <th>Factor</th>
-                                        <th width="200">Created</th>
+                                        {{-- <th width="200">Created</th> --}}
 
                                         <th width="50">Status</th>
                                         {{--                                    <th width="50">Nav Status</th>--}}
@@ -58,14 +66,7 @@
                                         <tr>
                                             <td class="p-2">1</td>
                                             <td class="p-1">Plantation</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -83,14 +84,7 @@
                                         <tr>
                                             <td class="p-2">2</td>
                                             <td class="p-1">Eat Local Food</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -107,15 +101,8 @@
 
                                         <tr>
                                             <td class="p-2">3</td>
-                                            <td class="p-1">waste your food?</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                            <td class="p-1">Waste your food?</td>
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -132,15 +119,8 @@
 
                                         <tr>
                                             <td class="p-2">4</td>
-                                            <td class="p-1">wash your cloth in normal water?</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                            <td class="p-1">Wash your cloth in normal water?</td>
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -158,14 +138,7 @@
                                         <tr>
                                             <td class="p-2">5</td>
                                             <td class="p-1">Reusable bag</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -183,14 +156,7 @@
                                         <tr>
                                             <td class="p-2">6</td>
                                             <td class="p-1">Electronics- Energy Star products</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                           
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -207,14 +173,7 @@
                                         <tr>
                                             <td class="p-2">7</td>
                                             <td class="p-1">Support & buy from companies - environmentally responsible</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                           
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -231,14 +190,7 @@
                                         <tr>
                                             <td class="p-2">8</td>
                                             <td class="p-1">Use bi cycle</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                           
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -255,14 +207,7 @@
                                         <tr>
                                             <td class="p-2">9</td>
                                             <td class="p-1">Aware using electricity</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -280,14 +225,7 @@
                                         <tr>
                                             <td class="p-2">10</td>
                                             <td class="p-1">Avoid flying if possible</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                           
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -304,14 +242,7 @@
                                         <tr>
                                             <td class="p-2">11</td>
                                             <td class="p-1">Purchasing a hybrid or electric vehicle</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
-
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -327,14 +258,8 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">12</td>
-                                            <td class="p-1">talk others about CO2 emission</td>
-                                            <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
-
-
-
-
-
-
+                                            <td class="p-1">Talk others about CO2 emission</td>
+                                            
 
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
@@ -361,6 +286,7 @@
                                                 </div>
                                               </div>
                             </div>
+                            <p style="font-weight: bold"><span style="color:crimson;font-size:25px">20,000 </span>Users  of our App have reduced <span style="color:green;font-size:25px">10,000 kg</span> Carbon Footprints from our environment.</p>
                         </section>
                     </div>
                 </div>

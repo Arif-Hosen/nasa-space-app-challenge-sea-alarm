@@ -53,7 +53,7 @@
             <ul>
                  <li><a class="nav-link scrollto active" href="">Home</a></li>
                 <li><a class="nav-link scrollto" href="{{route('routine')}}">Routine</a></li>
-                <li><a class="nav-link scrollto" href="#services">My Check List</a></li>
+                <li><a class="nav-link scrollto" href="#services">My Routine Activities</a></li>
 {{--                <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>--}}
 {{--                <li><a class="nav-link scrollto" href="#team">Team</a></li>--}}
 {{--                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>--}}
@@ -73,7 +73,9 @@
 {{--                        <li><a href="#">Drop Down 4</a></li>--}}
 {{--                    </ul>--}}
 {{--                </li>--}}
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="nav-link scrollto" href="#contact">Global Sea Level Projection</a></li>
+                <li><a class="nav-link scrollto" href="#contact">Bangladesh Sea Level Projection</a></li>
+                {{-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> --}}
                 <li><a class="getstarted scrollto" href="{{route('login')}}">Login</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
