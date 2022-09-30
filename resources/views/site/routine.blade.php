@@ -57,7 +57,7 @@
 
                                         <tr>
                                             <td class="p-2">1</td>
-                                            <td class="p-1">Plantation</td>
+                                            <td class="p-1">Plant a tree</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -107,7 +107,7 @@
 
                                         <tr>
                                             <td class="p-2">3</td>
-                                            <td class="p-1">waste your food?</td>
+                                            <td class="p-1">Did not waste your food.</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -132,7 +132,7 @@
 
                                         <tr>
                                             <td class="p-2">4</td>
-                                            <td class="p-1">wash your cloth in normal water?</td>
+                                            <td class="p-1">Washed clothes in normal water</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -157,7 +157,7 @@
 
                                         <tr>
                                             <td class="p-2">5</td>
-                                            <td class="p-1">Reusable bag</td>
+                                            <td class="p-1">Used reusable bags.</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -182,7 +182,7 @@
 
                                         <tr>
                                             <td class="p-2">6</td>
-                                            <td class="p-1">Electronics- Energy Star products</td>
+                                            <td class="p-1">Used Energy Star products</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -206,7 +206,7 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">7</td>
-                                            <td class="p-1">Support & buy from companies - environmentally responsible</td>
+                                            <td class="p-1">Support and buy from companies that are environmentally responsible</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -230,7 +230,7 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">8</td>
-                                            <td class="p-1">Use bi cycle</td>
+                                            <td class="p-1">Used electricity sparingly.</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -254,7 +254,7 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">9</td>
-                                            <td class="p-1">Aware using electricity</td>
+                                            <td class="p-1">Used non power consuming public transport.</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -279,7 +279,7 @@
 
                                         <tr>
                                             <td class="p-2">10</td>
-                                            <td class="p-1">Avoid flying if possible</td>
+                                            <td class="p-1">for a new car, consider purchasing a hybrid or electric vehicle</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -303,7 +303,7 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">11</td>
-                                            <td class="p-1">Purchasing a hybrid or electric vehicle</td>
+                                            <td class="p-1">Avoid flying if possible</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
@@ -327,7 +327,7 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">12</td>
-                                            <td class="p-1">talk others about CO2 emission</td>
+                                            <td class="p-1">Spread awareness about CO2 emissions</td>
                                             <td width="200" class="p-1">{{ date('F d, Y h:i A', strtotime('time')) }}</td>
 
 
