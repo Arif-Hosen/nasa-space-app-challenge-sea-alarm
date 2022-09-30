@@ -16,8 +16,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                <h1>Better Solutions For Your Business</h1>
-                <h2>We are team of talented designers making websites with Bootstrap</h2>
+                <h1>Better Solutions For A Beautiful Earth </h1>
+                <h2>We are team of sea waves designers & developer.</h2>
                 <div class="d-flex justify-content-center justify-content-lg-start">
                     <a href="#about" class="btn-get-started scrollto">Get Started</a>
                     <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
@@ -31,8 +31,8 @@
 
 </section><!-- End Hero -->
 
-<main id="main">
 
+<<<<<<< HEAD
     <!-- ======= Cliens Section ======= -->
     <section id="cliens" class="cliens section-bg">
         <div class="container">
@@ -680,15 +680,23 @@
     </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
+=======
+>>>>>>> 21c06b3a43d26746d879602646adf52094f7066c
 
 
 @endsection
 @section('script')
+<<<<<<< HEAD
   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+=======
+
+{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+>>>>>>> 21c06b3a43d26746d879602646adf52094f7066c
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  
+
 <script type="text/javascript">
+<<<<<<< HEAD
   
       var labels =  {{ Js::from($year)}};
       var sea_level = {{ Js::from($sea_level)}};
@@ -702,6 +710,12 @@
         
         }
         console.log(arr1)
+=======
+
+      var labels =  [2020,2022, 2023,2024, 2025];
+      var users = [0, 6,3,3,7,10 ];
+
+>>>>>>> 21c06b3a43d26746d879602646adf52094f7066c
       const data = {
         labels: arr1,
         datasets: [{
@@ -711,21 +725,25 @@
           data: sea_level,
         }]
       };
-  
+
       const config = {
         type: 'line',
         data: data,
         options: {}
       };
-  
+
       const myChart = new Chart(
         document.getElementById('myChart'),
         config
       );
 
+<<<<<<< HEAD
 
 
       
   
 </script>
+=======
+</script> --}}
+>>>>>>> 21c06b3a43d26746d879602646adf52094f7066c
 @endsection

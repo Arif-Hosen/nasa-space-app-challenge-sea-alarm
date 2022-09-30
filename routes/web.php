@@ -18,8 +18,9 @@ Route::get('/', [PreiousSeaLevelController::class,'index']);
 Route::get('/test', function () {
     return view('site.test');
 });
-
-
+Route::get('/routine', function (){
+    return view('site.routine');
+})->name('routine');
 
 Route::middleware([
     'auth:sanctum',

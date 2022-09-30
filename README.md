@@ -1,66 +1,93 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Project : Sea Alarm
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<h3 align="center">
+  <br>
+  <a href=""><img src="https://i.ibb.co/RSFyKyS/NASA-app-challenge-2022.png" alt="Computer Graphics Sessional"></a>
+  <br>
+Project for <a href="https://www.spaceappschallenge.org/"><span style="color:blue;">NASA International Space Apps Challenge</span></a> 2022
+  <br>
+</h3>
+
+## Team Members
+
+| [Arif Hosen](https://github.com/Arif-Hosen) | [MD. Towhidul Islam](https://github.com/tiarman) | [S. M. Mahir Anowar](https://github.com/Mahir97) |
+| :-: | :-: | :-: |
+|[![](https://github.com/Arif-Hosen.png?size=50)](https://github.com/novojitdas) | [![](https://github.com/tiarman.png?size=50)](https://github.com/tiarman)  | [![](https://github.com/Mahir97.png?size=50)](https://github.com/Mahir97)  |
+
+## Project Description
+<p style="text-align: justify">
+
+Hello everyone and welcome to Nasa space apps challenge Bangladesh 2022
+We are team Sea waves. Representing our team, I am S. M. Mahir Anowar and the other members of our team are, our team leader Arif Hosen and member Towhidul Islam. Today I’d like to talk to you about our project, Sea alarm.
+
+we are developing the web-based project Sea Alarm of which the purpose is to prevent sea level rising by raising awareness of the people and the policy makers of Bangladesh. Using this application, we will be able to visualize the data of sea level rising in Bangladesh as well as all over the world. We also want to create a checklist for us to follow daily to see how much we can contribute to reduce CO2 emission. We would also like to create a tree map so we can find statistics about the percentage of trees around our area and whether they are on the rise or going down to hopefully inspire people to plant more trees in their area. All of this will be possible using various satellite data provided to us by NASA
+
+
+Day by day global warming is causing the sea levels to rise. This image shows that according to the NASA Earth observatory, Since 1992, the Global mean sea level has risen 101 millimeters (3.98 inches) and it is currently rising at approximately 3.9mm (0.15 inches) per year. But if we were to focus on our country, here is the plot of projected Sea Level Rise in Chattogram.
+***See chattagram Image***
+For better understanding we used the Sea level change simulation tool from NASA.
+***see tool record, and describe***
+Here we can observe that in the 22nd Century, the sea level could rise approximately 1 feet in Chattogram. And in the 23rd Century, it could be 2 feet and in 24th it could be over 5-6 feet.
+***Effect on Bangladesh and people***
+Sea level rising directly affects the basic needs of the people of Bangladesh. How much damage could it do? To list a few,
+-> It could potentially destroy the agriculture sector
+->29,846 sq. km. area of land could be lost (IPCC, 2001a)
+-> It will accelerate flood intensity facilitating transmission of
+Diarrhea, cholera etc.
+-> Education will also be obstructed
+-> Most of all, our ecosystem could be totally destroyed
+
+
+
+So, what is our project? How do we plan to prevent the Sea level rising beyond our capabilities to handle? That is what I will describe now.
+
+3.1)
+Using data from the NASA satellites, we will make visualizations and spread information about the rise of sea levels in Bangladesh. Not only will we provide our own visualizations based on the data we receive, we will also provide the link of the Sea level change simulation tool of NASA directly to the people for them to check the statistics of this problem worldwide
+3.2)
+We will provide a handy checklist to people for them to be able to play their part in reducing CO2 emissions. We would like to provide everyone with empirical data which will give everyone an idea about how much help they are being to our environment by following a very minimal list of objectives. We would also like to visualize the amount of people using our app and their contributions. Using which we will give everyone data on how much using our app is helping the environment. A few items we plan on putting on our checklist are:
+1) Plant a tree
+1) Eat local Food
+2) Did not waste your food
+3) Washed clothes in normal water
+4) Used reusable bags
+5) Used Energy Star products
+6) Support and buy from companies that are environmentally responsible
+7) Used electricity sparingly
+8) Used non power consuming public transport
+9) for a new car, consider purchasing a hybrid or electric vehicle
+10) Avoid flying if possible
+12) Spread awareness about CO2 emissions
+
+
+
+3.3)
+We will notify people whether the percentage of trees are increasing or decreasing in their area. Here we will data from NASA which gives us the local area's tree percentage using the areas longitude and latitude. Which we will compare with previous data from the same area. Our hope is if people can see visualizations of decline in the percentage of trees in their area, they will be motivated to plant more.
+
+
+Impact of Sea Alarm
+
+Using this application, people can view the Sea level rising the decrease of trees in their local area in realtime. We believe it will inspire them to maintain a simple routine to reduce co2 emissions to the best of their ability. To quote a speech from Marty Nemko:
+“Having a routine helps ensure you do things well”.
+Thank you very much t everyone for watching.
 </p>
 
-## About Laravel
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/QzmkaNh.gif" alt="Computer Graphics Sessional"></a>
+  <br>
+  <strong>Report showing the recent and projected mosquito habitat of our earth.</strong>
+  <br>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Demo View
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+  <br>
+  <a href=""><img src="https://i.imgur.com/sj6WGiI.png" alt="Computer Graphics Sessional"></a>
+  <br>
+  <strong>Cleaned Area is colored with <span style="color:green;">Green</span> and another is <span style="color:red;">Red</span> </strong>
+  <br>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Last Updated: 1 OCT 
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
