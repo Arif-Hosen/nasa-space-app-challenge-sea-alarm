@@ -65,7 +65,8 @@
 
                                         <tr>
                                             <td class="p-2">1</td>
-                                            <td class="p-1">Plantation</td>
+
+                                            <td class="p-1">Plant a tree</td>
                                             
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
@@ -101,7 +102,8 @@
 
                                         <tr>
                                             <td class="p-2">3</td>
-                                            <td class="p-1">Waste your food?</td>
+
+                                            <td class="p-1">Did not waste your food.</td>
                                             
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
@@ -119,7 +121,8 @@
 
                                         <tr>
                                             <td class="p-2">4</td>
-                                            <td class="p-1">Wash your cloth in normal water?</td>
+
+                                            <td class="p-1">Washed clothes in normal water</td>
                                             
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
@@ -137,8 +140,9 @@
 
                                         <tr>
                                             <td class="p-2">5</td>
-                                            <td class="p-1">Reusable bag</td>
-                                            
+
+                                            <td class="p-1">Used reusable bags.</td>
+                                          
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -155,8 +159,9 @@
 
                                         <tr>
                                             <td class="p-2">6</td>
-                                            <td class="p-1">Electronics- Energy Star products</td>
-                                           
+
+                                            <td class="p-1">Used Energy Star products</td>
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -174,6 +179,7 @@
                                             <td class="p-2">7</td>
                                             <td class="p-1">Support & buy from companies - environmentally responsible</td>
                                            
+                                            
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -189,8 +195,8 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">8</td>
-                                            <td class="p-1">Use bi cycle</td>
-                                           
+
+                                            <td class="p-1">Used electricity sparingly.</td>
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -206,8 +212,9 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">9</td>
-                                            <td class="p-1">Aware using electricity</td>
-                                            
+
+                                            <td class="p-1">Used non power consuming public transport.</td>
+                                           
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -224,8 +231,10 @@
 
                                         <tr>
                                             <td class="p-2">10</td>
+
                                             <td class="p-1">Avoid flying if possible</td>
                                            
+
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -241,8 +250,10 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">11</td>
+
                                             <td class="p-1">Purchasing a hybrid or electric vehicle</td>
                                             
+
                                             <td class="text-capitalize p-1" width="100">
                                                 <div class="onoffswitch">
                                                     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
@@ -258,7 +269,8 @@
                                         </tr>
                                         <tr>
                                             <td class="p-2">12</td>
-                                            <td class="p-1">Talk others about CO2 emission</td>
+
+                                            <td class="p-1">Spread awareness about CO2 emissions</td>
                                             
 
                                             <td class="text-capitalize p-1" width="100">
