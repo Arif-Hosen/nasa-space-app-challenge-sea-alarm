@@ -89,15 +89,15 @@ Thank you very much t everyone for watching.
 
 <p >
   <br>
-  <a href=""><img src="{{asset('assets/frontend/img/1.png')}}" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="{{asset('assets/frontend/img/nasa/1.png')}}" alt="Computer Graphics Sessional"></a>
   <br>
-  <a href=""><img src="{{asset('assets/frontend/img/2.png')}}" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="{{asset('assets/frontend/img/nasa/2.png')}}" alt="Computer Graphics Sessional"></a>
   <br>
-  <a href=""><img src="{{asset('assets/frontend/img/3.png')}}" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="{{asset('assets/frontend/img/nasa/3.png')}}" alt="Computer Graphics Sessional"></a>
   <br>
-  <a href=""><img src="{{asset('assets/frontend/img/4.png')}}" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="{{asset('assets/frontend/img/nasa/4.png')}}" alt="Computer Graphics Sessional"></a>
   <br>
-  <strong>Cleaned Area is colored with <span style="color:green;">Green</span> and another is <span style="color:red;">Red</span> </strong>
+  <!-- <strong>Cleaned Area is colored with <span style="color:green;">Green</span> and another is <span style="color:red;">Red</span> </strong> -->
   <br>
 </p>
 
