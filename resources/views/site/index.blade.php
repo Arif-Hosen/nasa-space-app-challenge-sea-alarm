@@ -19,12 +19,12 @@
                 <h1>Better Solutions For A Beautiful Earth </h1>
                 <h2>We are team of sea waves designers & developer.</h2>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
-                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                    <a target="_blank" href=" https://sealevel.nasa.gov/vesl/web/sea-level/slr-uplift/" class="btn-get-started scrollto">Nasa Sea Level Change Simulation </a>
+                    <a target="_blank" href="https://climate.nasa.gov/vital-signs/sea-level/" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Go to Nasa Site</span></a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                <img src="{{asset('assets/frontend/img/hero-img.png')}}" class="img-fluid animated" alt="">
+                <img src="{{asset('assets/frontend/img/nasa/5.png')}}" class="img-fluid animated" alt="">
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
 
 
     <!-- ======= Cliens Section ======= -->
-    <section id="cliens" class="cliens section-bg">
+    {{-- <section id="cliens" class="cliens section-bg">
         <div class="container">
 
             <div class="row" data-aos="zoom-in">
@@ -65,7 +65,8 @@
             </div>
 
         </div>
-    </section><!-- End Cliens Section -->
+    </section> --}}
+    <!-- End Cliens Section -->
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
