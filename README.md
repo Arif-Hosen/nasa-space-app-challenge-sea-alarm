@@ -89,13 +89,13 @@ Thank you very much t everyone for watching.
 
 <p >
   <br>
-  <a href=""><img src="https://ibb.co/ZB3p9GB" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="https://i.ibb.co/0Jf9ygG/1.png" alt="Computer Graphics Sessional"></a>
   <br>
-  <a href=""><img src="https://ibb.co/0Qb4kt2" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="https://i.ibb.co/PcRvkFc/2.png" alt="Computer Graphics Sessional"></a>
   <br>
-  <a href=""><img src="https://ibb.co/0Qb4kt2" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="https://i.ibb.co/FnTZ9V3/3.png" alt="Computer Graphics Sessional"></a>
   <br>
-  <a href=""><img src="https://ibb.co/RgNwJ8B" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="https://i.ibb.co/sgCYX76/4.png" alt="Computer Graphics Sessional"></a>
   <br>
   <!-- <strong>Cleaned Area is colored with <span style="color:green;">Green</span> and another is <span style="color:red;">Red</span> </strong> -->
   <br>
