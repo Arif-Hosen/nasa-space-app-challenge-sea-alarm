@@ -2,7 +2,7 @@
 
 <h3 align="center">
   <br>
-  <a href=""><img src="https://i.ibb.co/RSFyKyS/NASA-app-challenge-2022.png" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="https://i.ibb.co/x84YhWz/NASA-app-challenge-2022-1.png" alt="Computer Graphics Sessional"></a>
   <br>
 Project for <a href="https://www.spaceappschallenge.org/"><span style="color:blue;">NASA International Space Apps Challenge</span></a> 2022
   <br>
