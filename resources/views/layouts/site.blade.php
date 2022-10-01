@@ -51,7 +51,7 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                 <li><a class="nav-link scrollto active" href="">Home</a></li>
+                 <li><a class="nav-link scrollto active" href="{{route('home')}}">Home</a></li>
                 <li><a class="nav-link scrollto" href="{{route('routine')}}">Routine</a></li>
                 <li><a class="nav-link scrollto" href="#services">My Routine Activities</a></li>
 {{--                <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>--}}

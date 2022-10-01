@@ -14,10 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PreiousSeaLevelController::class,'index']);
-Route::get('/test', function () {
-    return view('site.test');
-});
+Route::get('/', [PreiousSeaLevelController::class,'index'])->name('home');
+
 Route::get('/routine', function (){
     return view('site.routine');
 })->name('routine');

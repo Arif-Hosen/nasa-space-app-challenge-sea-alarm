@@ -2,7 +2,7 @@
 
 <h3 align="center">
   <br>
-  <a href=""><img src="https://i.ibb.co/RSFyKyS/NASA-app-challenge-2022.png" alt="Computer Graphics Sessional"></a>
+  <a href=""><img src="https://i.ibb.co/x84YhWz/NASA-app-challenge-2022-1.png" alt="Computer Graphics Sessional"></a>
   <br>
 Project for <a href="https://www.spaceappschallenge.org/"><span style="color:blue;">NASA International Space Apps Challenge</span></a> 2022
   <br>
@@ -71,13 +71,19 @@ Using this application, people can view the Sea level rising the decrease of tre
 Thank you very much t everyone for watching.
 </p>
 
-<p align="center">
-  <br>
-  <a href=""><img src="https://i.imgur.com/QzmkaNh.gif" alt="Computer Graphics Sessional"></a>
-  <br>
-  <strong>Report showing the recent and projected mosquito habitat of our earth.</strong>
-  <br>
-</p>
+[//]: # (<p align="center">)
+
+[//]: # (  <br>)
+
+[//]: # (  <a href=""><img src="https://i.imgur.com/QzmkaNh.gif" alt="Computer Graphics Sessional"></a>)
+
+[//]: # (  <br>)
+
+[//]: # (  <strong>Report showing the recent and projected mosquito habitat of our earth.</strong>)
+
+[//]: # (  <br>)
+
+[//]: # (</p>)
 
 # Demo View
 
@@ -95,5 +101,18 @@ Thank you very much t everyone for watching.
   <br>
 </p>
 
-Last Updated: 1 OCT 
+[//]: # (  <br>)
+
+[//]: # (  <a href=""><img src="https://i.imgur.com/sj6WGiI.png" alt="Computer Graphics Sessional"></a>)
+
+[//]: # (  <br>)
+
+[//]: # (  <strong>Cleaned Area is colored with <span style="color:green;">Green</span> and another is <span style="color:red;">Red</span> </strong>)
+
+[//]: # (  <br>)
+
+[//]: # (</p>)
+
+[//]: # ()
+[//]: # (Last Updated: 1 OCT )
 

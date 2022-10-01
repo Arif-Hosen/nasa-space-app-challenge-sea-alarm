@@ -30,7 +30,9 @@
                     <div class="card-body">
                         <section style="padding-top:20px;" class="panel ">
                             <header class="panel-heading">
+
                                 <h3 style="text-align: center " class="panel-title mb-5 text-primary">Daily Routine For Reducing Carbon Dioxide Emission</h3>
+
                             </header>
                             <div class="panel-body">
 
